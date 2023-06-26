@@ -1,10 +1,18 @@
-import banner from '../../assets/banner.png'
+import './banner.css'
+import image from '../../assets/shojol.jpg'
 
 const Banner = () => {
     return (
         <div>
-            <div className="bg-cover bg-gradient-to-r from-teal-400 to-green-400 bg-blend-screen bg-center h-[600px]" style={{ backgroundImage: `url(${banner})` }}>
-                <h1 className="text-white text-center text-2xl py-4">My Website</h1>
+            <div className="bg-cover gradient-bg bg-center h-screen flex justify-center items-center">
+                <div>
+                    <h2 className="text-white text-4xl text-start  py-4">Hi, I am</h2>
+                    <h1 className="text-white text-6xl font-bold ">Adnan Hossain Shojol</h1>
+                    <button className='btn btn-primary mt-5'>Checkout Resume</button>
+                </div>
+                <div className='w-1/4 ms-6'>
+                    <img className='h-30' src={image} alt="" />
+                </div>
             </div>
         </div>
     );

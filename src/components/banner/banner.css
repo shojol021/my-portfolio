@@ -1,0 +1,6 @@
+.gradient-bg {
+    
+    background: url('../../assets/banner.png'), linear-gradient(to right bottom, #00d8e8, #00ffbf);
+    background-size: cover;
+    background-blend-mode: soft-light;
+  }
