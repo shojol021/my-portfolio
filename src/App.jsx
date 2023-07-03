@@ -1,6 +1,9 @@
 import './App.css'
 import Banner from './components/banner/Banner'
+import Contact from './components/contact/Contact'
 import Navbar from './components/navbar/Navbar'
+import Projects from './components/projects/Projects'
+import Skills from './components/skills/Skills'
 
 function App() {
 
@@ -8,13 +11,9 @@ function App() {
     <>
       <Navbar></Navbar>
       <Banner></Banner>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-      <button
-        className="btn btn-primary">
-        Button
-      </button>
+      <Skills></Skills>
+      <Projects></Projects>
+      <Contact></Contact>
     </>
   )
 }

@@ -10,7 +10,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="fixed bg-slate-500 bg-opacity-20 w-full flex justify-between py-2">
+        <nav className="fixed bg-slate-500 bg-opacity-20 w-full flex justify-between py-2 z-50">
             <div className="ms-5">
                 Adnan Hossain
             </div>
