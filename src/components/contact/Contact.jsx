@@ -2,18 +2,37 @@
 
 const Contact = () => {
     return (
-        <div>
-            <h1 data-aos="fade-up" className='text-center font-bold text-6xl mb-10 mt-20'>Projects</h1>
+        <div className="bg-teal-400">
+            <h1 data-aos="fade-up" className='text-center font-bold text-6xl mb-10 mt-20 pt-10'>Contact</h1>
 
-            <div>
-                my Contact 1 
-            </div>
-            <div>
-                my Contact 2
-            </div>
-            <div>
-                my Contact 3
-            </div>
+            <footer className="footer p-10">
+                <div className="">
+                    <h2 className="footer-title">Contact Me</h2>
+                    <p>shojol021@gmail.com</p>
+                    <p>+8801683180668</p>
+                    <span className="footer-title mt-12">Social</span>
+                    <div className="grid grid-flow-col gap-4">
+                        <a href="https://www.linkedin.com/in/shojol021">Linkdin</a>
+                        <a href="https://github.com/shojol021">Github</a>
+                    </div>
+                </div>
+                <div className="">
+                    <span className="footer-title">Enter Your Message</span>
+                    <div className="form-control w-full max-w-xs">
+                        <label className="label">
+                            <span className="label-text">Your email?</span>
+                        </label>
+                        <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
+                    </div>
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text">Your Message</span>
+                        </label>
+                        <textarea className="textarea textarea-bordered h-24" placeholder="Type Here"></textarea>
+
+                    </div>
+                </div>
+            </footer>
         </div>
     );
 };

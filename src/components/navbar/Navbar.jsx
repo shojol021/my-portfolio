@@ -11,8 +11,8 @@ const Navbar = () => {
 
     return (
         <nav className="fixed bg-slate-500 bg-opacity-20 w-full flex justify-between py-2 z-50">
-            <div className="ms-5">
-                Adnan Hossain
+            <div className="ms-5 font-bold">
+                <a href="/">Adnan Hossain Shojol</a>
             </div>
             <div>
                 <ul className="flex justify-center space-x-4">
