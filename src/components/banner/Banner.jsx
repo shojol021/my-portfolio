@@ -11,7 +11,7 @@ const Banner = () => {
         <div>
             <div className="bg-cover gradient-bg bg-center h-screen flex justify-center items-center">
                 <div data-aos="fade-up" data-aos-delay="300">
-                    <h2 className="text-white text-4xl text-start  py-4">Hi, I am</h2>
+                    <h2  className="text-white text-4xl text-start  py-4">Hi, I am</h2>
                     <h1 className="text-white text-6xl font-bold ">Adnan Hossain Shojol</h1>
                     <button onClick={handleResumeClick} className='btn btn-primary mt-5'>Checkout Resume</button>
                 </div>
